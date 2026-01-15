@@ -1,12 +1,21 @@
 {
-  "manifest_version": 3,
-  "name": "Hide Scrollbar",
-  "version": "1.0.0",
-  "description": "Hide scrollbars on all pages.",
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "css": ["content.css"]
-    }
-  ]
+    "manifest_version":  3,
+    "name":  "Hide Scrollbar",
+    "version":  "1.0.0",
+    "description":  "Hide scrollbars on all pages.",
+    "content_scripts":  [
+                            {
+                                "matches":  [
+                                                "\u003call_urls\u003e"
+                                            ],
+                                "css":  [
+                                            "content.css"
+                                        ]
+                            }
+                        ],
+    "icons":  {
+                  "16":  "icons/icon16.png",
+                  "128":  "icons/icon128.png",
+                  "48":  "icons/icon48.png"
+              }
 }
